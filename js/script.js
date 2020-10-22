@@ -12,7 +12,6 @@ let cButton = document.querySelector('.c');
 
 
 submitButton.addEventListener('click', function() {
-  debugger;
   let inputValue = inputField.value;
   let output;
   if (fButton.checked === true) {
