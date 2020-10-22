@@ -6,4 +6,10 @@ function fahToCel() {
     return cel
 }
 
-console.log(fahToCel())
+
+// function celToFah() {
+//     fah = ((celsius*(9/5)) + 32)
+//     return fah
+// }
+
+document.querySelector('#input')
