@@ -1,3 +1,36 @@
+body {
+  text-align: center;
+  background-color: #D3D3D3;
+}
+
 h1 {
   color: blue;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+.output {
+  background-color: gray;
+  height: 100px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.hot {
+  background-color: red;
+  color: white;
+}
+
+.cold {
+  background-color: blue;
+  color: white;
 }
