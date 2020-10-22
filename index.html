@@ -4,11 +4,57 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Hello Front-End</title>
+  <script type="text/javascript" src="js/script.js" async></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Temp Converter</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
 
-  <script type="text/javascript" src="js/script.js"></script>
+  <div class = "wrapper">
+    <div class="box header">
+      <h1>Temp Converter</h1>
+
+
+
+    </div>
+
+    <div class="box sidebar" id="input">
+      <form id ="form" onsubmit="return unesi()">
+        <input type="number" id="temp" name="temp" placeholder="temp">
+        <br/>
+        <input type ="radio" name = "unit" value = "F">°F
+        <input type ="radio" name = "unit" value = "C">°C
+        <br/>
+        <button onclick="convert()" type="submit">CONVERT</button>
+        <button onclick="clear()" type="reset">CLEAR</button>
+       </form>
+
+
+    </div>
+
+
+
+
+
+    <div class="box content" id="output">
+
+      <span id="newtemp"></span>
+    </div>
+
+    <div class="box footer">
+      Jenny Feng
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+  </div>
 </body>
 </html>
