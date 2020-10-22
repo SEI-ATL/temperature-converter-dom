@@ -8,6 +8,7 @@ convert = () => {
     let temp = parseInt(document.getElementById('temp').value);
     console.log(unit);
     if (unit[0].checked){
+        
         document.getElementById('newtemp').innerHTML = convertCtoF(temp) + 'C';
         color(temp);
 
