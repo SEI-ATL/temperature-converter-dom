@@ -1,3 +1,17 @@
-h1 {
-  color: blue;
+body {
+  text-align: center;
+  margin: 20px 200px;
+}
+
+form {
+  background: lightgray;
+  border: 1px solid darkgray;
+  border-radius: 3em;
+  padding: 10px;
+}
+
+div {
+  background: white;
+  border: 1px solid black;
+  margin: 10px 200px;
 }

@@ -10,15 +10,16 @@
   <h1>Temperature Conversion</h1>
   <form>
     <label for="temperature">Temperature:</label><br>
-  <input type="text" id="temperature" name="temperature"><br>
-  <label for="conversion">Fahrenheit to Celsius</label>
-  <select name="conversion buttons" id="conversion">
-    <option value="Fahrenheit">Fahrenheit</option>
-    <option value="Celsius">Celsius</option>
-  </select>
-    <button>Submit</button>
+    <input type="text" id="temperature" name="temperature"><br>
+    <label for="conversion">Convert to:</label><br>
+    <select name="conversion buttons" id="selection">
+      <option value="Celsius">Celsius</option>
+      <option value="Fahrenheit">Fahrenheit</option>
+    </select><br>
+    <button id="submit">Submit</button><br>
+    <label for="converted">New temperature:</label><br>
+    <div id="converted"><p></p></div>
     <button>Clear</button>
-    <output>Output</output>
 </form>
   <script type="text/javascript" src="js/script.js"></script>
 </body>
