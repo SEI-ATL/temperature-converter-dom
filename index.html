@@ -4,11 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Hello Front-End</title>
+  <title>Temperature Converter</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
-
+  <div class="title">
+    <h2>Temperature Converter</h2>
+  </div>
+  <div class="inputField">
+    <input type="text" id='txtbox' placeholder='Type Here'></input>
+  </div>
+  
+  <div class="clickables">
+    <button type="button" onclick="farToCel();" id="submit">Submit</button>
+    <button type="button" onclick="celToFar();" id="submit2">Submit 2</button>
+    <button type="button" onclick="resetBox();" id="clear">Clear</button>
+  </div>
+  <script type="text/javascript" src="js/script.js"></script>
+  <div class="container">
+    <h3 id="screen"> </h3>
+  </div>
   <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
