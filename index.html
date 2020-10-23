@@ -7,8 +7,50 @@
   <title>Hello Front-End</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <div class="container">
+    <div class="row">
+      <h1>Temperature Converter</h1>
+    </div>
+    <div class="row" id="form">
+      <form onSubmit="conversion" action="">
+        <div class="row">
+          <input type="text" id="temp">
+        </div>
+        <div class="row">
+          <!-- Convert from -->
+          <label for="tempType">
+            <input type="radio" name="tempType" id="far">°F
+          </label>
+          <label for="temp">
+            <input type="radio" name="tempType" id="cel">°C
+          </label>
+          <!-- <label for="temp">
+            <input type="radio" name="tempType" id="kel">°K
+          </label> -->
+        </div>
 
-  <script type="text/javascript" src="js/script.js"></script>
+        <!-- <div class="row">
+          Convert to:
+          <label for="tempConvType">
+            <input type="radio" name="tempConvType" id="farConv">°F
+          </label>
+          <label for="temp">
+            <input type="radio" name="tempConvType" id="celConv">°C
+          </label>
+          <label for="temp">
+            <input type="radio" name="tempConvType" id="kelConv">°K
+          </label>
+        </div> -->
+        <div class="row">
+          <input type="button" id="submit" value="Submit">
+          <input type="button" id="clear" value="Clear">
+        </div>
+      </form>
+    </div>
+    
+  </div>
+  
+
+  <script async defer type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
