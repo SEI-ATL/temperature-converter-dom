@@ -19,8 +19,19 @@ function celToFar(){
     }
 }
 
+function farFormula(){
+    document.getElementById('celRadio').checked = false; // This function unclick the other radio button
+    const radioOnCLick = document.querySelector('#sumbit + onclick')
+    radioOnCLick.innerText = farToCel();
+}
+
+function celFormula() {
+    document.getElementById('farRadio').checked = false; // This function unclick the other radio button
+    const radioOnCLick = document.querySelector('#sumbit + onclick')
+    radioOnCLick.innerText = celToFar();
+}
+
 
 function resetBox(){
     const noVal = document.querySelector('#txtbox').value=' ';
 }
-
