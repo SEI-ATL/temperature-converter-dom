@@ -12,8 +12,14 @@
     <h1>Temperature Converter</h1>
     <form>
         <input type="text" id="tempInput">
+        <!--
         <button type='button' class='unit selected' id='F'>ºF</button>
         <button type='button' class='unit' id='C'>ºC</button>
+        -->
+        <input type='radio' id='radF' name="units" value='F'>
+        <label for="radC">ºF</label>
+        <input type='radio' id='radC' name="units" value='C'>
+        <label for="radC">ºC</label>
         <div class='buttonSection'>
             <button type='submit' id='submit'>Submit</button>
             <button type='button' id="clear">Clear</button>
