@@ -7,8 +7,28 @@
   <title>Hello Front-End</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
-
+  <h1>Temperature Converter</h1>
+<h2>Fahrenheit to Celsius</h2>
+<section>
+<div class='one'>
   <script type="text/javascript" src="js/script.js"></script>
+  <input type='number' placeholder='Fahrenheit:' id='f'>
+  <br></br>
+  <input type='text' placeholder='Celsius Conversion:' id='c'>
+  <br></br>
+  <button onClick='convertFahrenheit()'>Convert to Celsius</button>
+  <button onClick="document.getElementById('f').value = 'Degrees in Fahrenheit'">Clear</button>
+<br></br>
+<h2>Celsius to Fahrenheit</h2>
+<div class='two'>
+  <input type='number' placeholder='Celsius:' id='cOne'>
+  <br></br>
+  <input type='text' placeholder='Fahrenheit Conversion:' id='fOne'>
+  <br></br>
+  <button onClick='convertCelsius()'>Convert to Fahrenheit</button>
+  <button onclick= "document.getElementById('cOne').value = 'Degrees in Celsius'">Clear</button>
+</div>
+</section>
+ 
 </body>
 </html>

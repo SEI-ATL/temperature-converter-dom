@@ -1,3 +1,39 @@
 h1 {
-  color: blue;
+  color: grey;
+  text-align: center;
+  text-decoration: underline;
+}
+
+body {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  background: lightgray;
+}
+
+button {
+  background: linear-gradient(to bottom, #c54141 0%, #ac792d 100%);
+}
+
+input {
+  border: 5px;
+  padding: 10px;
+  font-size: 18px;
+  display: inline;
+  margin: auto;
+}
+
+input[type='text'] {
+  background: white;
+  color: grey;
+  border-color: grey;
+}
+
+.one {
+  display: ;
+  justify-content: 
+}
+
+.two {
+  display: inline;
 }
