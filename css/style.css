@@ -1,3 +1,18 @@
 h1 {
-  color: blue;
+  color: black;
+}
+.buttons {
+  padding: 25px;
+}
+body {
+  text-align: center;
+  background: lightgrey;
+}
+
+h2 {
+  display: block;
+  background-color: red;
+  max-width: 300px;
+  margin: 25px auto;
+  
 }
