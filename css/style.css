@@ -1,3 +1,24 @@
 h1 {
-  color: blue;
+  display: flex;
+  justify-content: center;
+  color: darkgreen;
+  border: .1em solid black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 75px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  color: darkgreen;
+  border: .1em solid black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+}
+p {
+  display: flex;
+  justify-content: center;
+  color: darkgreen;
+  border: .1em solid black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
 }
