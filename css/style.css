@@ -1,3 +1,13 @@
+body {
+  text-align: center;
+  padding: 2em;
+}
+.buttons {
+  padding: 2em;
+  margin: 1em;
+}
+
 h1 {
-  color: blue;
+  padding: 2em;
+  color: darkred;
 }
