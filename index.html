@@ -13,10 +13,20 @@
   <div class="inputField">
     <input type="text" id='txtbox' placeholder='Type Here'></input>
   </div>
+  <div class="radioButtons">
+  <div class="farRadio">
+      <input type="radio" onclick="farFormula();" id="farRadio" name="fahrenheit" value="Fahrenheit">
+      <p>Celcius</p>
+  </div>
+  <div class="celRadio">
+      <input type="radio" onclick="celFormula();" id="celRadio" name="celcius" value="Celcius">
+      <p>Fahrenheit</p>
+  </div>
+  </div>
   
   <div class="clickables">
-    <button type="button" onclick="farToCel();" id="submit">Submit</button>
-    <button type="button" onclick="celToFar();" id="submit2">Submit 2</button>
+    <button type="button" onclick="farToCel();" id="submit">Convert to C°</button>
+    <!-- <button type="button" onclick="celToFar();" id="submit2">Convert to F°</button> -->
     <button type="button" onclick="resetBox();" id="clear">Clear</button>
   </div>
   <script type="text/javascript" src="js/script.js"></script>
