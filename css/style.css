@@ -1,3 +1,19 @@
+body {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  background-color: lightgray;
+}
+
+
+
 h1 {
-  color: blue;
+  color: gray;
+}
+
+p {
+  font-size: 40px;
+  background-color: red;
+  color: white;
+  padding: 
 }
