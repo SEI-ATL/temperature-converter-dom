@@ -1,3 +1,26 @@
+body {
+  background-color: rgb(209, 209, 209);
+}
 h1 {
-  color: blue;
+  color: #0000ff;
+}
+
+#ctof, #ctof2{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#clear {}
+
+
+#c {
+  color: red;
+  font-size: 19px;
+  font-weight: bolder;
 }
