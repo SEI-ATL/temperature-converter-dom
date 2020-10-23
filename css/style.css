@@ -1,3 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D3D3D3;
+  padding: 1rem 0 0 5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 60px 60px 30px 45px 100px;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.header {
+  grid-row: 1 / span 1;
+  grid-column: 1 / -1;
+  height: 80px;
+}
+
 h1 {
-  color: blue;
+  color: #808080;
+  font-size: 2rem;
+}
+
+.input {
+  grid-row: 2 / span 1;
+  grid-column: 1 / -1;
+  height: 80px;
+}
+#input {
+  height: 50px;
+  width: 400px;
+  border-radius: 5px;
+  border: 1px solid #D3D3D3;
+  font-size: 2rem;
+  margin: 0 0 10px 0;
+  -webkit-appearance: none;
+}
+
+.radio_buttons {
+  grid-row: 3 / span 1;
+  grid-column: 1 / -1;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  font-size: 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.buttons {
+  grid-row: 4 / span 1;
+  grid-column: 1 / -1;
+}
+
+#output {
+  grid-row: 5 / span 1;
+  height: 100px;
+  width: 600px;
+  font-size: 5rem;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
