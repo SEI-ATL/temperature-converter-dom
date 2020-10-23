@@ -1,3 +1,68 @@
 h1 {
-  color: blue;
+  color: #fcbf00;
+  text-align: center;
+
+}
+
+
+#inputTemperature {
+  position: relative;
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+input[type=text] {
+  padding: 1px;
+  margin: 10px 0;
+  border-radius: 10px;
+  position: relative;
+  display: inline-block;
+  border: 3px solid rgb(230, 38, 68);
+}
+
+button {
+  display: inline;
+  text-align: center;
+  padding: 3px;
+  appearance: none;
+  background-color: rgb(0, 73, 150);
+  color: #fcbf00;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.buttons-container {
+  position: relative;
+  text-align: center;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div {
+  width: 400px;
+  border: 15px rgb(230, 38, 68);
+  padding: 50px;
+  margin: 20px;
+  position: relative;
+  
+}
+
+
+.box {
+  border: 1px solid rgb(230, 38, 68);
+  background-color: rgb(0, 73, 150);
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+body {
+  background-color: white;
 }
