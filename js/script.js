@@ -1,6 +1,8 @@
 //Simone Schneeberg and Jaxon Narramore Hw 4
 //Functions
 
+console.log('page loaded');
+
 //convert temperature and set display
 function convertAndDisplay(input, signifier) {
     let convertedTemp = null;
@@ -37,12 +39,24 @@ function clearTextbox() {
 
 //Actions
 
-//convert user input
+/*
+//convert user input on submit
 document.querySelector('#submit').addEventListener('click', function() {
     tempInput = document.querySelector('#tempInput').value;
     unit = document.querySelector('.selected').id;
     convertAndDisplay(tempInput, unit);
 });
+*/
+
+//convert user input on enter
+document.querySelector('form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    tempInput = document.querySelector('#tempInput').value;
+    unit = document.querySelector('.selected').id;
+    convertAndDisplay(tempInput, unit);
+});
+
+
 
 //clear user input
 document.querySelector('#clear').addEventListener('click', function() {
