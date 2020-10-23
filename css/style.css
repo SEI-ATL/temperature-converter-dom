@@ -32,7 +32,26 @@ h3 {
 
 .clickables {
   position: relative;
-  justify-content: center ;
-  flex-direction:;
+  margin-left: 40%;
   width: 50%;
+}
+
+.radio {
+  position: relative;
+  text-align: center;
+  padding: 0px;
+}
+
+.radioButtons {
+  position: relative;
+  margin-left: 40%;
+  display: inline;
+  text-align: center;
+  padding: 3px;
+}
+
+p {
+  margin-top: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
 }
