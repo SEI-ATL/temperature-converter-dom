@@ -1,17 +1,12 @@
-
 let submitButton = document.querySelector('.submit');
 let clearButton = document.querySelector('.clear');
 let inputField = document.querySelector('#input');
 let h2 = document.querySelector('h2');
 let outputDiv = document.querySelector('.output');
 let fButton = document.querySelector('.f');
-let cButton = document.querySelector('.c');
-
-
-
-
 
 submitButton.addEventListener('click', function() {
+  outputDiv.className = 'output';
   let inputValue = inputField.value;
   let output;
   if (fButton.checked === true) {
