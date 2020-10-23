@@ -1,3 +1,22 @@
 h1 {
-  color: blue;
+  color: black;
+  text-align: center;
+}
+output{
+  display: inline;
+  color: black
+}
+
+.divv {
+  display: inline;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+}
+form{
+  background-color: rgba(3, 141, 141, 0.651);
+}
+
+body{
+  background-color: rgba(155, 1, 160, 0.767);
 }
