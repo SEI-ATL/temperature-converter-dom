@@ -13,20 +13,18 @@
     <br>
 
     <div class='radioButtons'>
-      <input type="radio" id="F">
-      <label for="F">Fahrenheit</label>
-      <input type="radio" id="C">
-      <label for="C">Celsius</label>
+      <input type="radio" id="f-to-c" value='f-to-c' name='units'>
+      <label for="F">°F</label>
+      <input type="radio" id="c-to-f" value='c-to-f' name='units'>
+      <label for="C">°C</label>
     </div>
-
     <br>
-
     <div class="buttons">
-      <button type="submit">Submit</button>
-      <button type="clear">Clear</button>
+      <button type="submit" id='submit'>Submit</button>
+      <button type="clear" id='clear'>Clear</button>
     </div>
   
-  <p class='convertedResult'>Converted degrees</p>
+  <div class="convertedResult">Result</div>
 </div>
   
   <script type="text/javascript" src="js/script.js"></script>
