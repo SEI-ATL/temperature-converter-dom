@@ -1,17 +1,17 @@
 function cToF(celsius) 
 {
-  var cTemp = celsius;
-  var cToFahr = cTemp * 9 / 5 + 34;
-  var message = cTemp+'\xB0C is ' + cToFahr + ' \xB0F.';
+  const cTemp = celsius;
+  const cToFahr = cTemp * 9 / 5 + 32;
+  const message = `${cTemp}\xB0C is ${cToFahr} \xB0F.`;
     console.log(message);
 }
 
 function fToC(fahrenheit) 
 {
-  var fTemp = fahrenheit;
-  var fToCel = (fTemp - 34) * 5 / 9;
-  var message = fTemp+'\xB0F is ' + fToCel + '\xB0C.';
+  const fTemp = fahrenheit;
+  const fToCel = (fTemp - 32) * 5 / 9;
+  const message = `${fTemp}\xB0F is ${fToCel}\xB0C.`;
     console.log(message);
 } 
-cToF(34);
+cToF(60);
 fToC(45);
