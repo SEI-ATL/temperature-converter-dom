@@ -8,17 +8,13 @@
 </head>
 <body>
   <h1>Temperature Converter</h1>
-
-  <input type="search" value="34">
- <p>
-   
-  
-  <input class="w3-button w3-black" type="button" value="Submit">
-<button class="w3-button w3-black">Button Button</button>
-<a href="https://www.w3schools.com" class="w3-button w3-black"></a>
-</p>
-<div><button class="w3-button w3-red">1 C</button> </div>
-
+  <p>
+    <label>"34"</label>
+    <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+    oninput="temperatureConverter(this.value)"
+    onchange="temperatureConverter(this.value)">
+  </p>
+  <p>Celsius: <span id="outputCelsius"></span></p>
   <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
